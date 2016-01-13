@@ -1,5 +1,5 @@
 @set /a i = 1
-@:loop
+:loop
 @echo 1. Windows 10 32 & echo.2. Windows 10 64 & echo.3. Windows 8.1 32 & echo.4. Windows 8.1 64 & echo.5. Windows 7 32 & echo.6. Windows 7 64 & echo.7. Windows 7 64 Enterprise
 @set /P OS="Enter the os you wish to reboot into: "
 @IF %i%==3 GOTO END
